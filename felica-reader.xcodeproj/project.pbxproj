@@ -24,6 +24,7 @@
 		CD8BF60222A841E000490877 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD8BF60522A841E000490877 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CD8BF60722A841E000490877 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD8BF60D22A841E800490877 /* felica-reader.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "felica-reader.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +57,7 @@
 		CD8BF5F822A841DF00490877 /* felica-reader */ = {
 			isa = PBXGroup;
 			children = (
+				CD8BF60D22A841E800490877 /* felica-reader.entitlements */,
 				CD8BF5F922A841DF00490877 /* AppDelegate.swift */,
 				CD8BF5FB22A841DF00490877 /* SceneDelegate.swift */,
 				CD8BF5FD22A841DF00490877 /* ViewController.swift */,
@@ -284,6 +286,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "felica-reader/felica-reader.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9TWATL5SE8;
 				INFOPLIST_FILE = "felica-reader/Info.plist";
@@ -302,6 +305,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "felica-reader/felica-reader.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9TWATL5SE8;
 				INFOPLIST_FILE = "felica-reader/Info.plist";

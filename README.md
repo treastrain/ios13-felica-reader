@@ -1,5 +1,7 @@
 # felica-reader
 
+![Swift](https://img.shields.io/badge/Swift-5.0-orange.svg)
+
 Code samples for reading FeliCa data on iOS 13.
 
 ![Demo](demo.gif)

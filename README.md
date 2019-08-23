@@ -1,3 +1,8 @@
+ℹ️ 日本の NFC カードを読み取るためのライブラリを開発、公開しています。 ℹ️
+
+[treastrain/TRETJapanNFCReader](https://github.com/treastrain/TRETJapanNFCReader)
+日本の NFC、FeliCa カード向けリーダーライブラリ（iOS 13.0 以降）
+
 # felica-reader
 
 ![Swift](https://img.shields.io/badge/Swift-5.0-orange.svg)
